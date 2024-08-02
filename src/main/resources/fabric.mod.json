@@ -3,9 +3,9 @@
 	"id": "anthsoverhaul",
 	"version": "${version}",
 	"name": "anthsoverhaul",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "An overhaul to Minecraft",
 	"authors": [
-		"Me!"
+		"Anthony"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"net.anth.anthsoverhaul.Anthsoverhaul"
+		],
+		"client": [
+			"net.anth.anthsoverhaul.AnthsoverhaulClient"
 		],
 		"fabric-datagen": [
 			"net.anth.anthsoverhaul.AnthsoverhaulDataGenerator"
