@@ -2,8 +2,8 @@
 	"schemaVersion": 1,
 	"id": "anths-overhaul",
 	"version": "${version}",
-	"name": "Anths Overhaul",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Anth's Overhaul",
+	"description": "An overhaul to Minecraft",
 	"authors": [
 		"Me!"
 	],
@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"net.anth.anthsoverhaul.AnthsOverhaul"
+		],
+		"client": [
+			"net.anth.anthsoverhaul.AnthsOverhaulClient"
 		],
 		"fabric-datagen": [
 			"net.anth.anthsoverhaul.AnthsOverhaulDataGenerator"
