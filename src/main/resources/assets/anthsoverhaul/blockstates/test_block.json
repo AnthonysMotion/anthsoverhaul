@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "anthsoverhaul:block/test_block"
+    }
+  }
+}

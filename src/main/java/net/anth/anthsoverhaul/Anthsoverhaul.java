@@ -1,5 +1,6 @@
 package net.anth.anthsoverhaul;
 
+import net.anth.anthsoverhaul.block.ModBlocks;
 import net.anth.anthsoverhaul.item.ModItemGroups;
 import net.anth.anthsoverhaul.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -17,5 +18,6 @@ public class AnthsOverhaul implements ModInitializer {
 
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

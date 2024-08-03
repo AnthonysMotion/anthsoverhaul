@@ -1,6 +1,7 @@
 package net.anth.anthsoverhaul.item;
 
 import net.anth.anthsoverhaul.AnthsOverhaul;
+import net.anth.anthsoverhaul.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -17,6 +18,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.CLOTH)).entries((displayContext, entries) -> {
                         entries.add(ModItems.CLOTH);
                         entries.add(ModItems.KATANA);
+                        entries.add(ModBlocks.TEST_BLOCK);
                     }).build());
 
 
